@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sweet Eclat — Repostería artesanal. Hecho con amor.">
+  <title>Sweet Eclat | Hecho con amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="normal">
+
+  <div class="theme-transition" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand-mini" href="#inicio">SWEET ECLAT</a>
+
+    <nav class="main-nav" aria-label="Navegación">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#esencia">Nuestra esencia</a>
+      <a href="#pedidos">Pedidos</a>
+    </nav>
+
+    <div class="theme-switch" aria-label="Cambiar línea">
+      <button type="button" class="theme-button active" data-theme-target="normal">Normal</button>
+      <button type="button" class="theme-button" data-theme-target="gourmet">Gourmet</button>
+    </div>
+  </header>
+
+  <main id="normal-content">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">REPOSTERÍA ARTESANAL</p>
+        <h1>Sweet Eclat</h1>
+        <p class="slogan">Hecho con amor.</p>
+        <p class="hero-text">
+          Detalles dulces creados para regalar, compartir y convertir
+          momentos especiales en recuerdos.
+        </p>
+        <a class="primary-button" href="#catalogo">Descubrir nuestros productos</a>
+      </div>
+
+      <div class="hero-logo-wrap">
+        <div class="logo-orbit"></div>
+        <img class="hero-logo" src="logo-normal.png" alt="Sweet Eclat">
+      </div>
+    </section>
+
+    <section class="featured section">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTRO PRODUCTO ESTRELLA</p>
+        <h2>Chocolate</h2>
+        <p>Una pequeña selección hecha para disfrutar y sorprender.</p>
+      </div>
+
+      <div class="featured-card">
+        <div class="photo-placeholder">
+          <img src="chocopeanut-2.png" alt="Chocopiñatas Sorpresa">
+        </div>
+        <div class="featured-copy">
+          <p class="eyebrow">CHOCOLATERÍA</p>
+          <h3>Chocopiñatas Sorpresa</h3>
+          <p>Figuras de chocolate fino para romper con un mini martillo de madera y descubrir una sorpresa en su interior.</p>
+          <button type="button" class="text-button product-link" data-product="chocopinatas">Ver producto →</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalogo">
+      <div class="section-heading">
+        <p class="eyebrow">CATÁLOGO</p>
+        <h2>Creaciones hechas con amor</h2>
+        <p>Explora nuestras categorías actuales.</p>
+      </div>
+
+      <div class="category-tabs" role="tablist" aria-label="Categorías">
+        <button type="button" class="category-tab active" data-category="chocolateria">Chocolatería</button>
+        <button type="button" class="category-tab" data-category="reposteria">Repostería</button>
+        <button type="button" class="category-tab" data-category="regalos">Regalos</button>
+        <button type="button" class="category-tab" data-category="bebidas">Bebidas</button>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="essence section" id="esencia">
+      <div class="essence-panel">
+        <div>
+          <p class="eyebrow">NUESTRA ESENCIA</p>
+          <h2>Hecho con amor.</h2>
+        </div>
+        <p>
+          Sweet Eclat nace con la intención de convertir lo dulce en algo más
+          que un producto: un detalle para celebrar, regalar y compartir.
+          Comenzamos con chocolate y seguimos creciendo hacia nuevas creaciones.
+        </p>
+      </div>
+    </section>
+
+    <section class="coming section">
+      <div class="section-heading">
+        <p class="eyebrow">ESTO APENAS COMIENZA</p>
+        <h2>Hay más por venir.</h2>
+        <p>Estamos construyendo poco a poco el universo de Sweet Eclat.</p>
+      </div>
+
+      <div class="coming-grid">
+        <article><span>01</span><h3>Café</h3><p>Próximamente.</p></article>
+        <article><span>02</span><h3>Nuevas creaciones</h3><p>Estamos preparando algo especial.</p></article>
+        <article><span>03</span><h3>Línea Gourmet</h3><p>En desarrollo.</p></article>
+      </div>
+    </section>
+
+    <section class="orders section" id="pedidos">
+      <div class="orders-card">
+        <p class="eyebrow">PEDIDOS</p>
+        <h2>¿Tienes algo en mente?</h2>
+        <p>Cada creación se prepara fresca y bajo pedido.</p>
+        <div class="order-details">
+          <div><strong>Anticipación</strong><span>15–20 días recomendados</span></div>
+          <div><strong>Entregas</strong><span>Domicilios y envíos especiales</span></div>
+        </div>
+        <div class="contact-placeholder">
+          <span>Haz tu pedido en Instagram</span>
+          <small><a href="https://www.instagram.com/hello.sweeteclat/" target="_blank" rel="noopener">@hello.sweeteclat</a></small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="gourmet-screen" id="gourmet-screen" aria-hidden="true">
+    <div class="gourmet-inner">
+      <div class="gourmet-logo-mark">
+        <img src="logo-gourmet.png" alt="Sweet Eclat Gourmet">
+      </div>
+
+      <p class="eyebrow">SWEET ECLAT GOURMET</p>
+      <h2>Estamos cocinando<br>algo especial para ti.</h2>
+      <p class="gourmet-message">
+        Nuestra línea Gourmet está en preparación. Muy pronto podrás descubrir
+        una nueva experiencia de Sweet Eclat.
+      </p>
+      <button type="button" class="gourmet-back" id="gourmet-back">Volver a Normal</button>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div><strong>SWEET ECLAT</strong><span>Hecho con amor.</span></div>
+    <p>Chocolatería · Repostería · Regalos</p>
+    <small>© <span id="year"></span> Sweet Eclat</small>
+  </footer>
+
+  <dialog class="product-modal" id="product-modal">
+    <button type="button" class="modal-close" aria-label="Cerrar">×</button>
+    <div class="modal-photo"></div>
+    <div class="modal-content" id="modal-content"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
